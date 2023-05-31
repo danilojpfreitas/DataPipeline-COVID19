@@ -25,11 +25,11 @@ Os dados CSV da camada Landing foram transformados para o formato parquet e carr
 
 ## :file_folder: Terraform
 
-Todas as features da Azure foram provisionando utilizando infraestrutura como código com o Terraform. Todos os passos para sua execução estão bem descritos no meu Post no Medium ().
+Todas as features da Azure foram provisionando utilizando infraestrutura como código com o Terraform. Todos os passos para sua execução estão bem descritos no meu Post no Medium (https://medium.com/@danilojpfreitas/constru%C3%A7%C3%A3o-de-uma-data-pipeline-etl-azure-terraform-e-databricks-a0655d03f6a8).
 
 ## :fast_forward: Ingestão dos dados
 
-O processo de ingestão dos dados foi executado com Azure Data Factory da base de do governo ao Data Lake (Azure Data Lake Gen2).
+O processo de ingestão dos dados foi executado com Azure Data Factory da base de dados do governo ao Data Lake (Azure Data Lake Gen2).
 
 ![Landing](Img/landing.png)
 
@@ -41,7 +41,7 @@ O processo de ingestão dos dados foi executado com Azure Data Factory da base d
 
 Nesta etapa foi efetuado por meio do Databricks a transformação dos dados CSVs para outras camadas (Processing e Curated). Para isso foi criado um notebook disponível neste diretório.
 
-Basicamente, todo o conteúdo foi transformado para o formato Parquet e carregado na Processing Zone. Posteriormente, foram criadas algumas tabelas específicas para utilização no Power BI => VacinaçãoGeral e Vacinação em Maceió 2021, 2022 e 2023.
+Basicamente todo o conteúdo foi transformado para o formato Parquet e carregado na Processing Zone. Posteriormente foram criadas algumas tabelas específicas para utilização no Power BI => Vacinação Geral e Vacinação em Maceió em 2021, 2022 e 2023.
 
 ## :eye: Visualização dos Dados pelo Power BI
 
