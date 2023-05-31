@@ -16,7 +16,7 @@ resource "azurerm_data_factory_linked_custom_service" "Data01" {
 
   type_properties_json = <<JSON
 {
-    "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIPNI/COVID/uf/uf%3DAL/part-00000-a1ee0c9b-ec60-4d91-8c80-c4dc3014b27c.c000.csv",
+    "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIPNI/COVID/uf/uf%3DAL/part-00000-7c537626-7eeb-43bc-a6de-6c6335882b64.c000.csv",
     "enableServerCertificateValidation": false,
 
     "authenticationType": "Anonymous"
@@ -34,7 +34,7 @@ resource "azurerm_data_factory_linked_custom_service" "Data02" {
 
   type_properties_json = <<JSON
 {
-    "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIPNI/COVID/uf/uf%3DAL/part-00001-a1ee0c9b-ec60-4d91-8c80-c4dc3014b27c.c000.csv",
+    "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIPNI/COVID/uf/uf%3DAL/part-00001-7c537626-7eeb-43bc-a6de-6c6335882b64.c000.csv",
     "enableServerCertificateValidation": false,
 
     "authenticationType": "Anonymous"
@@ -52,7 +52,7 @@ resource "azurerm_data_factory_linked_custom_service" "Data03" {
 
   type_properties_json = <<JSON
 {
-    "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIPNI/COVID/uf/uf%3DAL/part-00002-a1ee0c9b-ec60-4d91-8c80-c4dc3014b27c.c000.csv",
+    "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIPNI/COVID/uf/uf%3DAL/part-00002-7c537626-7eeb-43bc-a6de-6c6335882b64.c000.csv",
     "enableServerCertificateValidation": false,
 
     "authenticationType": "Anonymous"
@@ -70,7 +70,7 @@ resource "azurerm_data_factory_linked_custom_service" "Data04" {
 
   type_properties_json = <<JSON
 {
-    "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIPNI/COVID/uf/uf%3DAL/part-00003-a1ee0c9b-ec60-4d91-8c80-c4dc3014b27c.c000.csv",
+    "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIPNI/COVID/uf/uf%3DAL/part-00003-7c537626-7eeb-43bc-a6de-6c6335882b64.c000.csv",
     "enableServerCertificateValidation": false,
 
     "authenticationType": "Anonymous"
@@ -88,7 +88,7 @@ resource "azurerm_data_factory_linked_custom_service" "Data05" {
 
   type_properties_json = <<JSON
 {
-    "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIPNI/COVID/uf/uf%3DAL/part-00004-a1ee0c9b-ec60-4d91-8c80-c4dc3014b27c.c000.csv",
+    "url": "https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SIPNI/COVID/uf/uf%3DAL/part-00004-7c537626-7eeb-43bc-a6de-6c6335882b64.c000.csv",
     "enableServerCertificateValidation": false,
 
     "authenticationType": "Anonymous"

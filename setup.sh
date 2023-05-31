@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# Another project :)
 install() {
     echo "Azure Terraform"
     cd Azure-Terraform
