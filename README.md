@@ -3,7 +3,7 @@
 ---
 
 Neste projeto foi construído um Data Pipeline com a utilização de algumas ferramentas incríveis: Terraform, Azure Data Factory, Databricks e Azure Data Lake Gen 2.
-O principal objetivo deste projeto é por em prática essas ferramentas para a extração, transformação e carregamento (ETL) de uma base disponibilizado pelo governo federal da vacinação da COVID 19 (https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao).
+O principal objetivo deste projeto é por em prática essas ferramentas para a extração, transformação e carregamento (ETL) de uma base de dados disponibilizado pelo governo federal da vacinação da COVID 19 (https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao).
 
 ## :bulb: Data Pipeline
 
