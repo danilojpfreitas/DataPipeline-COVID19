@@ -13,7 +13,7 @@ O principal objetivo deste projeto é por em prática essas ferramentas para a e
 
 Os dados disponibilizados pelo governo estão em formato CSV e são divididos por estado. Para esta análise foram utilizados os dados do estado de Alagoas que estão estruturados na seguinte maneira:
 
-![Data Pipeline Azure Terraform](img/dataPipelineAzureETL.png)
+![Arquitetura Geral](img/dadosCovid19.png)
 
 ## :scroll: Visão geral da arquitetura
 
@@ -31,11 +31,11 @@ Todas as features da Azure foram provisionando utilizando infraestrutura como c�
 
 O processo de ingestão dos dados foi executado com Azure Data Factory da base de do governo ao Data Lake (Azure Data Lake Gen2).
 
-![Data Pipeline Azure Terraform](img/landing.png)
+![Landing](img/landing.png)
 
-![Data Pipeline Azure Terraform](img/procesing.png)
+![Processing](img/procesing.png)
 
-![Data Pipeline Azure Terraform](img/curated.png)
+![Curated](img/curated.png)
 
 ## :rocket: Modelagem dos Dados pelo Azure Databricks
 
@@ -49,6 +49,6 @@ A última etapa deste projeto é a chegada de nossos dados no Power BI. Para iss
 
 Com a obtenção das tabelas geradas na Curated Zone foi possível desenvolver um simples Dashboard com algumas métricas da vacinação da Covid 19 em Alagoas.
 
-![Data Pipeline Azure Terraform](img/powerbi.jpg)
+![PowerBI](img/powerbi.jpg)
 
 ---
