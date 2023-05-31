@@ -1,5 +1,5 @@
 # Data Pipeline ETL (Azure/Terraform e Databricks)
-## Toda a descrição (passo a passo) deste projeto está disponibilizado neste post: 
+## Toda a descrição (passo a passo) deste projeto está disponibilizado neste post: https://medium.com/@danilojpfreitas/constru%C3%A7%C3%A3o-de-uma-data-pipeline-etl-azure-terraform-e-databricks-a0655d03f6a8
 ---
 
 Neste projeto foi construído um Data Pipeline com a utilização de algumas ferramentas incríveis: Terraform, Azure Data Factory, Databricks e Azure Data Lake Gen 2.
