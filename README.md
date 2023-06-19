@@ -1,9 +1,9 @@
 # Data Pipeline ETL (Azure/Terraform e Databricks)
-## Toda a descrição (passo a passo) deste projeto está disponibilizado neste post: https://medium.com/@danilojpfreitas/constru%C3%A7%C3%A3o-de-uma-data-pipeline-etl-azure-terraform-e-databricks-a0655d03f6a8
+## Toda a descrição (passo a passo) deste projeto está disponibilizado neste post: [Medium](https://medium.com/@danilojpfreitas/constru%C3%A7%C3%A3o-de-uma-data-pipeline-etl-azure-terraform-e-databricks-a0655d03f6a8)
 ---
 
 Neste projeto foi construído um Data Pipeline com a utilização de algumas ferramentas incríveis: Terraform, Azure Data Factory, Databricks e Azure Data Lake Gen 2.
-O principal objetivo deste projeto é por em prática essas ferramentas para a extração, transformação e carregamento (ETL) de uma base de dados disponibilizado pelo governo federal da vacinação da COVID 19 (https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao).
+O principal objetivo deste projeto é por em prática essas ferramentas para a extração, transformação e carregamento (ETL) de uma base de dados disponibilizado pelo governo federal da vacinação da [COVID 19](https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao).
 
 ## :bulb: Data Pipeline
 
@@ -17,7 +17,7 @@ Os dados disponibilizados pelo governo estão em formato CSV e são divididos po
 
 ## :scroll: Visão geral da arquitetura
 
-Partindo como base o consumo da base de dados pública da vacinação da COVID 19 (https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao). A ingestão dos dados foi realizada pelo Azure Data Factory em formato CSV e carregados na camada Landing do diretório da Azure Blob Storage (Data Lake Gen 2).
+Partindo como base o consumo da base de dados pública da vacinação da [COVID 19](https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao). A ingestão dos dados foi realizada pelo Azure Data Factory em formato CSV e carregados na camada Landing do diretório da Azure Blob Storage (Data Lake Gen 2).
 
 Todo o CSV depositado na camada Landing foi tratado e carregado para as outras camadas (Processing e Curated) no Azure Databricks. No notebook do Databricks é definido primeiramente a montagem do Data Lake (necessário realizar alguns processo de permissões).
 
@@ -25,7 +25,7 @@ Os dados CSV da camada Landing foram transformados para o formato parquet e carr
 
 ## :file_folder: Terraform
 
-Todas as features da Azure foram provisionando utilizando infraestrutura como código com o Terraform. Todos os passos para sua execução estão bem descritos no meu Post no Medium (https://medium.com/@danilojpfreitas/constru%C3%A7%C3%A3o-de-uma-data-pipeline-etl-azure-terraform-e-databricks-a0655d03f6a8).
+Todas as features da Azure foram provisionando utilizando infraestrutura como código com o Terraform. Todos os passos para sua execução estão bem descritos no meu Post no [Medium](https://medium.com/@danilojpfreitas/constru%C3%A7%C3%A3o-de-uma-data-pipeline-etl-azure-terraform-e-databricks-a0655d03f6a8).
 
 ## :fast_forward: Ingestão dos dados
 
