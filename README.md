@@ -1,4 +1,4 @@
-# Data Pipeline ETL (Azure/Terraform e Databricks)
+# Data Pipeline ETL: Azure/Terraform e Databricks
 ## Toda a descrição (passo a passo) deste projeto está disponibilizado neste post: [Medium](https://medium.com/@danilojpfreitas/constru%C3%A7%C3%A3o-de-uma-data-pipeline-etl-azure-terraform-e-databricks-a0655d03f6a8)
 ---
 
