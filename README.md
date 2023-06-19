@@ -33,7 +33,7 @@ O processo de ingestão dos dados foi executado com Azure Data Factory da base d
 
 ![Landing](Img/landing.png)
 
-![Processing](Img/procesing.png)
+![Processing](Img/processing.png)
 
 ![Curated](Img/curated.png)
 
